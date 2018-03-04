@@ -1,4 +1,0 @@
-npm install
-npm install react-router-dom
-npm install material-ui
-npm install --save react-swipeable-views
