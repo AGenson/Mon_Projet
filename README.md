@@ -1,4 +1,4 @@
-![React-logo](https://codefluegel.com/en/tag/react-js/)
+![React-logo](https://cdn-images-1.medium.com/max/1600/1*cMyXhbaUYCJwjYG3nNrImw.jpeg)
 
 # react-project-web-store
 
