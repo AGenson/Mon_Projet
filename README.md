@@ -1,4 +1,4 @@
-![React-logo](https://cdn-images-1.medium.com/max/1600/1*cMyXhbaUYCJwjYG3nNrImw.jpeg)
+![sdf](http://jpsierens.com/wp-content/uploads/2016/06/react-eco-wp.gif)
 
 # react-project-web-store
 
