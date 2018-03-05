@@ -18,12 +18,14 @@ Here's the website instance, thanks to [surge](http://surge.sh/) (free static we
 
 # Features
 
+Features:
 - Login page (sign in / up)
 - Inventory management
 - Web Store (client side)
 - Cart management & Order
 
-- React for the structure of the website
-- Redux for local storage (products, cart, paths & users)
-- React-router for paths management
-- Material-ui for design
+Tools:
+- [React](https://github.com/facebook/react) for the structure of the website
+- [Redux](https://github.com/ReactTraining/react-router) for local storage (products, cart, paths & users)
+- [React-router](https://github.com/reactjs/redux) for paths management
+- [Material-ui](https://github.com/mui-org/material-ui) for design
