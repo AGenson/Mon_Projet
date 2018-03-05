@@ -53,12 +53,12 @@ class InventoryList extends Component {
 										action1={{
 											exist: true,
 											action: this._start_edit_product.bind(this),
-											text: "Modifier"
+											text: "Modify"
 										}}
 										action2={{
 											exist: true,
 											action: this._remove_product.bind(this),
-											text: "Supprimer"
+											text: "Remove"
 										}}
 									/>
 								);

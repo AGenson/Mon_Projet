@@ -74,7 +74,7 @@ class Main extends Component {
 		}
 		else {
 			return (
-				<div style={{minHeight: "100%", backgroundColor: "rgba(70, 70, 0, 0.85)"}}>
+				<div style={{minHeight: "100%", backgroundColor: "rgba(0, 70, 70, 0.85)"}}>
 					<header>
 						<AppBar
 							position="static"

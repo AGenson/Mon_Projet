@@ -20,7 +20,7 @@ import {red800 as red} from 'material-ui/styles/colors';
 
 
 class Connection extends Component {
-	
+
 	state = {
 		sign_in: true,
 		form: {
@@ -78,15 +78,15 @@ class Connection extends Component {
 			case "firstname":
 				obj.firstname.text = value;
 				break;
-				
+
 			case "lastname":
 				obj.lastname.text = value;
 				break;
-				
+
 			case "email":
 				obj.email.text = value;
 				break;
-				
+
 			case "password":
 				obj.password.text = value;
 				break;
@@ -162,7 +162,7 @@ class Connection extends Component {
 					<div style={{margin: '0px 25% 0px 25%', textAlign: 'center'}}>
 						<Paper zDepth={3} style={{backgroundColor: red, height: 100, display: 'flex', justifyContent: 'center', alignItems: 'center'}} rounded={false}>
 							<CardText style={{fontSize: 20}}>
-								Veuillez vous connecter pour accéder au reste du site.
+								You have to sign in to enter the website.
 							</CardText>
 						</Paper>
 						<Paper zDepth={5} rounded={true} style={{borderBottomLeftRadius: 150, borderBottomRightRadius: 150}}>

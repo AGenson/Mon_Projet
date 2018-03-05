@@ -5,9 +5,6 @@ import {
 	Switch
 } from 'react-router-dom';
 
-import { connect } from 'react-redux';
-//import { bindActionCreators } from "redux";
-
 import Paper from 'material-ui/Paper';
 
 import InventoryList from "./InventoryList";
@@ -29,13 +26,4 @@ class Inventory extends Component {
 	}
 }
 
-const mapStateToProps = (state) => ({
-	//log_status: state.users.logged
-});
-
-
-const mapActionsToProps = (dispatch) => ({
-	//users_log_out_user: bindActionCreators(users_log_out_user, dispatch)
-});
-
-export default connect(mapStateToProps, mapActionsToProps)( Inventory );
+export default Inventory;

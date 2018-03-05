@@ -16,19 +16,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import configureStore from './services';
 
-/*
-	The store is initialize during the reconnect workflow
-	You can find this workflow insde the workflow folder/login
-	Called on each route to check user context
-*/
+
+
 const store = configureStore({});
-
-
-/*
-	First thing first
-	npm install --save redux react-redux
-*/
-
 
 const muiTheme = getMuiTheme({
 	"textField": {
@@ -146,6 +136,7 @@ const App = (props) => (
 		</Provider>
 	</MuiThemeProvider>
 )
+
 
 
 ReactDOM.render(<App />, document.getElementById('root'));

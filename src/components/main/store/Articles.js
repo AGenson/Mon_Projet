@@ -91,7 +91,7 @@ class Articles extends Component {
 										action1={{
 											exist: true,
 											action: this._add_product.bind(this),
-											text: "Ajouter au panier"
+											text: "Add"
 										}}
 										action2={{
 											exist: false,

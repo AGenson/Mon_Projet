@@ -1,23 +1,10 @@
 import * as types from "./constants";
+import default_inventory from "./default_inventory";
 
 
 const initialState = {
 	//items: []
-	items: [{
-		id: Date.now(),
-		title: "Mon article",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sem rhoncus tortor sollicitudin consectetur nec vel tellus. Mauris in malesuada urna, in imperdiet sem. Ut viverra augue at mi consectetur suscipit. Fusce finibus dui erat, eu pulvinar libero imperdiet vitae. Sed fermentum dictum sodales. Sed vehicula est ut mi luctus pharetra. Sed maximus odio mollis varius lobortis. Nulla facilisi. Aenean posuere nisl eget enim ornare commodo.",
-		url: "http://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg",
-		price: 99,
-		quantity: 10
-	},{
-		id: Date.now()+1,
-		title: "Un autre article",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sem rhoncus tortor sollicitudin consectetur nec vel tellus. Mauris in malesuada urna, in imperdiet sem. Ut viverra augue at mi consectetur suscipit. Fusce finibus dui erat, eu pulvinar libero imperdiet vitae. Sed fermentum dictum sodales. Sed vehicula est ut mi luctus pharetra. Sed maximus odio mollis varius lobortis. Nulla facilisi. Aenean posuere nisl eget enim ornare commodo.",
-		url: "https://fr.cdn.v5.futura-sciences.com/buildsv6/images/mediumoriginal/6/5/2/652a7adb1b_98148_01-intro-773.jpg",
-		price: 19,
-		quantity: 5
-	}],
+	items: default_inventory,
 	product_edit: {}
 };
 
@@ -126,4 +113,3 @@ export default function reducer(state = initialState, action)
 
 	}
 };
-
