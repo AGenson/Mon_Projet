@@ -10,7 +10,7 @@ Web project based on React / Redux, to create a simple web store.
 
 # Description
 
-First time using react, here's a small react project consisting on creating a web store.
+First time doing a real react project. This one is a small project consisting on creating a web store.
 
 This is only a static website developement. It is not connected to any data storage, it just simulates one.
 
